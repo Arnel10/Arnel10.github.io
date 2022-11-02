@@ -1,0 +1,180 @@
+.footer{
+    background-image: -webkit-gradient(linear,left top, right bottom,from(rgba(126, 213, 111, 0.5)),to(rgba(40, 180, 133, 0.5))),url('../img/bg/night\ nature.jpg');
+    background-image: -o-linear-gradient(left top,rgba(126, 213, 111, 0.5),rgba(40, 180, 133, 0.5)),url('../img/bg/night\ nature.jpg');
+    background-image: linear-gradient(to right bottom,rgba(126, 213, 111, 0.5),rgba(40, 180, 133, 0.5)),url('../img/bg/night\ nature.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.footer-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.footer-content-1,
+.footer-content-2,
+.footer-content-3,
+.footer-content-4{
+    width: 25%;
+    color: rgb(81, 255, 72);
+    font-size: bold;
+}
+
+.footer-content-1 h4,
+.footer-content-2 h4,
+.footer-content-3 h4,
+.footer-content-4 h4{
+    margin: 25px 12%;
+}
+
+.footer-input{
+    margin: 0 10%;
+    padding: 15px 30px;
+    width: 65%;
+    background: rgba(190, 190, 190, 0.75);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-input::-webkit-input-placeholder{
+    color: white;
+    font-weight: 550;
+}
+
+.footer-input::-moz-placeholder{
+    color: white;
+    font-weight: 550;
+}
+
+.footer-input:-ms-input-placeholder{
+    color: white;
+    font-weight: 550;
+}
+
+.footer-input::-ms-input-placeholder{
+    color: white;
+    font-weight: 550;
+}
+
+.footer-input::placeholder{
+    color: white;
+    font-weight: 550;
+}
+
+.footer-input:focus{
+    outline: none;
+}
+
+.footer-icon-web{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.footer-icon-web li {
+    padding-left: 9%;
+}
+
+.footer-icon-web li i{
+    /* font-size: 20px; */
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.footer-icon-web li i:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.footer-content ul{
+    margin: 0 13%;;
+}
+
+.footer-content ul li{
+    list-style: none;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+}
+
+.footer-content ul li:hover{
+    cursor: pointer;
+}
+
+.footer-icon-team{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-icon-team h1{
+    text-transform: uppercase;
+    color: #fff;
+    /* font-size: 35px; */
+    /* letter-spacing: 2.5px; */
+}
+
+.footer-icon-team span{
+    color: rgb(81, 255, 72);
+}
+
+.footer-icon-team ul{
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.footer-icon-team ul li{
+    font-weight: 600;
+    list-style: none;
+    color: #fff;
+    margin: 0 25px;
+}
+
+.footer-remerciement{
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-icon-partenaire{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-icon-partenaire img{
+    margin: 5px 10px;
+    width: 60px;
+    height: 60px;
+}
+
+@media all and (max-width:966px) {
+    .footer-content {
+        display: block;
+        padding-top: 20px;
+    }
+    .footer-content-1,
+    .footer-content-2,
+    .footer-content-3,
+    .footer-content-4{
+    width: 100%;
+    color: rgb(81, 255, 72);
+    font-size: bold;
+    }
+} 

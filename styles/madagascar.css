@@ -1,0 +1,296 @@
+@-webkit-keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px)
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px)
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+.madagascar {
+    text-align: center;
+}
+
+.madagascar h1{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    color: #55c57a;
+}
+
+.madagascar span{
+    display: block;
+    margin: 10px 10px;
+    font-size: 25px;
+    color: #55c57a;
+}
+
+.madagascar-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.madagascar-content-1,
+.madagascar-content-2,
+.madagascar-content-3{
+    width: 30%;
+    position: relative;
+    margin: 30px ;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.madagascar-content-1:hover,
+.madagascar-content-2:hover,
+.madagascar-content-3:hover{
+    cursor: pointer;
+} 
+
+.madagascar-content-1 img,
+.madagascar-content-2 img,
+.madagascar-content-3 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.madagascar-content-1:hover img,
+.madagascar-content-2:hover img,
+.madagascar-content-3:hover img{
+    cursor: pointer;
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+}
+
+.madagascar-content-1 h3,
+.madagascar-content-2 h3,
+.madagascar-content-3 h3{
+    font-weight: 600;
+    color: rgb(110, 110, 110);
+    margin: 10px 10px;
+}
+
+.madagascar-content-1 p,
+.madagascar-content-2 p,
+.madagascar-content-3 p
+{
+    font-size: small;
+    font-size: 14.5px;
+    padding: 30px;
+    margin-inline: 5%px;
+}
+
+.madagascar-content-1 ul,
+.madagascar-content-2 ul,
+.madagascar-content-3 ul {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+.madagascar-content-1 ul li,
+.madagascar-content-2 ul li,
+.madagascar-content-3 ul li{
+    list-style: none;
+    padding: 10px 10px;
+    background: rgb(57, 255, 57);
+    margin: 10px 5px;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.madagascar-content-1 ul li:hover,
+.madagascar-content-2 ul li:hover,
+.madagascar-content-3 ul li:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.madagascar-content-1:hover ul li,
+.madagascar-content-2:hover ul li,
+.madagascar-content-3:hover ul li{
+    -webkit-animation: moveInBottom 0.5s ease-in-out;
+            animation: moveInBottom 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.btn-madagascar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background: rgb(57, 255, 57);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 0 0 0 10px ;
+}
+
+.btn-madagascar:hover{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/* Banner style */
+
+.banner{
+    margin: 0 2%;
+    width: 95%;
+}
+
+.banner-all{
+    background-image: -webkit-gradient(linear,left top, right bottom,from(rgba(126, 213, 111, 0.5)),to(rgba(40, 180, 133, 0.5))),url(../img/bg/nature.jpg);
+    background-image: -o-linear-gradient(left top,rgba(126, 213, 111, 0.5),rgba(40, 180, 133, 0.5)),url(../img/bg/nature.jpg);
+    background-image: linear-gradient(to right bottom,rgba(126, 213, 111, 0.5),rgba(40, 180, 133, 0.5)),url(../img/bg/nature.jpg);;
+    background-size: cover;
+    -webkit-clip-path: polygon(100% 0%, 0% 6%, 0% 100%, 100% 94%);
+            clip-path: polygon(100% 0%, 0% 6%, 0% 100%, 100% 94%);
+    /* height: 80vh; */
+    padding: 4% 0;
+}
+
+.banner-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.banner-content h1{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.banner-content-1,
+.banner-content-2,
+.banner-content-3{
+    margin: 0 30px;
+    width: 30%;
+}
+
+.banner-content-1 img,
+.banner-content-2 img,
+.banner-content-3 img{
+    width: 75%;
+    border-radius:1000px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.banner-content-1 img:hover,
+.banner-content-2 img:hover,
+.banner-content-3 img:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gallery{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.gallery a{
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    background: #55c57a;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gallery h3{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gallery h3:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media all and (max-width: 800px) {
+    .madagascar-content {
+        display: block;
+        text-align: center;
+    }
+    .madagascar-content-1,.madagascar-content-2,.madagascar-content-3 {
+        margin-left: 18%;
+        width: 65%;
+    }
+} 
+
+@media all and (max-width: 500px) {
+    .madagascar-content {
+        display: block;
+        text-align: center;
+    }
+    .madagascar-content-1,.madagascar-content-2,.madagascar-content-3 {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .banner-content-1 img,
+    .banner-content-2 img,
+    .banner-content-3 img{
+        margin-left: 3.5%;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
